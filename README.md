@@ -97,13 +97,14 @@ VITE_CHAIN_ID=97
 **Frontend:**
 ```bash
 cd frontend
-npm run dev
+npm run run build
+serve dist
 ```
 
 **Backend:**
 ```bash
 cd backend
-npm run dev
+npm start
 ```
 
 **Contracts (optional):**
